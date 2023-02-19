@@ -1,0 +1,11 @@
+/* Mainly we have lean about focus pseudo classes. */
+/* and learnt that we can separately handle required as normal input. */
+input:focus{
+    padding:5px;
+    outline:none;
+    border: 2px solid green;
+}
+
+input:required{
+    color:red
+}

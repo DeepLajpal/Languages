@@ -1,0 +1,38 @@
+/* #1 Universal Selector /In future video we will learn uses */
+/* *{
+    color:green;
+} */
+
+/* #2 Regular Selectors */
+header{
+    background-color: #f0fefe;
+}
+
+section.my-articles{
+    background-color: #f2fefe;
+}
+
+header p{
+    color:red;
+}
+
+li a{
+    color: red;
+
+}
+
+/* section.myarticles h2{
+    color:gren;
+} */
+section.myarticles > h2{
+    color:gren;
+}
+
+section.my-articles h2+p{
+    color:orangered;
+}
+
+ul+p{
+    color:green;
+}
+ 

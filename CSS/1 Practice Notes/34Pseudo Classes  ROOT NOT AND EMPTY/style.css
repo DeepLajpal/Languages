@@ -1,0 +1,41 @@
+/* Note: if we write html or :root both the meaning is same. */
+/* Note: Root element IN HTML is html tag */
+
+/* body :not(p){
+    color: blue;
+} */
+
+/* body :not(.fancy){
+    color: blue;
+} */
+
+/* div:empty{
+    color: brown;
+    background-color: crimson;
+    width: 20px;
+    height: 40px;
+    border:2px solid black;
+} */
+/* ________________________________________ */
+/* :root{
+    color: red;
+    background-color: green;
+} */
+
+/* ************OR******************* */
+
+/* html{
+    color: red;
+    background-color: green;
+} */
+/* ________________________________________ */
+
+/* 
+body{
+    color: green;
+    background-color:#222;
+} */
+
+
+
+

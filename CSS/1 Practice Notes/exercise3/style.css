@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 1300px;
+    margin: 0px auto;
+}
+
+header ul{
+    background-color: rgb(180, 180, 180);
+    padding: 10px 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+header ul li{
+    display:inline;
+    padding:5px;
+}
+
+a{
+    border-bottom: 2px solid black;
+    text-decoration: none;
+}
+h2{
+    border-bottom: 2px solid black;
+}
+

@@ -1,0 +1,18 @@
+/* By default the font weight of pasragraph tag is 400 and we can also write as normal both meaning is same. */
+
+/* the bold and 700 meaning is same */
+p{
+    font-weight: 400;
+    font-weight: normal;
+    font-weight: 700;
+    font-weight: bold;
+
+}
+h1{
+    font-weight: bold;  /* no change because by default the h1  is in bold */
+    font-weight: 400;
+    font-weight: normal;
+    font-weight: 700;
+    font-weight: bold;
+    font-style: italic;
+}

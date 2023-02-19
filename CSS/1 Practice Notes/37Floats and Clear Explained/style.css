@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 4px solid blue;
+}
+
+.box1{
+    width: 33%;
+    float: left;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.box2{
+    width: 33%;
+    float: left;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.box3{
+    width: 32%;
+    float: left;
+    background-color: cornsilk;
+    padding: 10px;
+}
+
+/* .clearfix{
+    clear: both;
+} */
+
+
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

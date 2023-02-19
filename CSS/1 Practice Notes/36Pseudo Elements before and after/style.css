@@ -1,0 +1,42 @@
+/* Note: Content property is mandatory, we have to use content in ::after and ::before peseudo elements. */
+/* Note: for all replaced elements such as img, br input etc, we can not use before and after pseodo elements  */
+.para::before{
+    display: block;
+    content: "hello ";
+    color: green;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+.para::after{
+    display: block;
+    content: "hello ";
+    color: green;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+.head::before{
+    display: block;
+    content: "hello ";
+    color: red;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+.head::after{
+    display: block;
+    content: "hello ";
+    color: red;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+
+img::after{
+    content: Hello;
+}

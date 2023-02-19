@@ -1,0 +1,28 @@
+/* In this we learn about four pseudo classes  | Link Related */
+/* 1)link */
+/* 2)visited */
+/* 3)hower */
+/* 4)active */
+
+/* Note:by using the shortcut key {control + shift + Delete} we will redirected to the clear catch history page to delete the visited history */
+/* Note: it is used for both link/button as well as for normal text */
+
+a:link{
+    color: orange;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color: black;
+}
+
+p:hover{
+    color: green;
+}
+p:active{
+    background-color: #cecece;
+}

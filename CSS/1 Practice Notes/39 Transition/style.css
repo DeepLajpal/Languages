@@ -1,0 +1,22 @@
+.transition{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name:first-transition;
+    animation-duration:5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes first-transition {
+    from {
+        background-color:blue;
+        width: 50px;
+    }
+    to{
+        background-color: lightblue;
+        width: 200px;
+    }
+}

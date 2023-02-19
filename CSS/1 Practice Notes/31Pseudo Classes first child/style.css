@@ -1,0 +1,9 @@
+/* Today we learn about :first-child and first-type-of  pseudo classes */
+
+/* p:first-child{
+    color: red;
+} */
+
+p:first-of-type{
+    color: red;
+}

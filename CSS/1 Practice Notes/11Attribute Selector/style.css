@@ -1,0 +1,17 @@
+input[type="text"]{
+    color: orangered;
+    background-color: aqua;
+}
+input[type="password"]{
+    color: blue;
+    background-color: chartreuse;
+}
+/* a[href="https://google.in"]{
+    color: red;
+} */
+/* a[href*="google"]{
+    color: red;
+} */
+ a[href^="https"]{    /*{^ This sign is known as caret symbol } */
+    color: red;
+}

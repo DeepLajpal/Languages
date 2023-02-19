@@ -1,0 +1,42 @@
+/* Note - browser have some by Default Top Margin  */
+
+h1{
+    border: 4px solid red;
+    /* padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px; */
+
+    /* if we want to set padding of all sides equal then we will simply use: */
+    /* padding: 40px; */
+
+    /* if we want to top and bottom will equal and right and left will equal then simply use: */
+    /* padding:20px top bottom 40px right left; */
+
+    /* if we want to set padding as a clock wise then: */
+
+    padding: 20px 40px 20px 40px; /*sequence top right bottom left */
+
+    /* #1 if we want to set margin as a clock wise then:*/ 
+    margin-top: 50px 100px 50px 100px;
+
+    /* #2 if we want to top and bottom will equal and right and left will equal then simply use:*/
+    margin: 50px 100px;
+
+    /* #3  Regular*/
+    margin-top: 50px;
+    margin-left:100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+
+    /* #4 if we want to set padding of all sides equal then we will simply use:*/
+    margin: 100px;
+
+    width: 100px;
+    text-align: center;
+
+    /* #if we want to allign text in middile then: */
+    margin: 20px auto;
+
+
+}

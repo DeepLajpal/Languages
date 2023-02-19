@@ -1,0 +1,10 @@
+.mainHeading{
+    border:2px solid black;
+    text-align: center;
+    background-color: rgb(119, 109, 109);
+}
+.mainContent{
+    border:2px groove black;
+    padding:0px 10px;
+    margin: 50px;
+}

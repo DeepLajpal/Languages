@@ -1,0 +1,32 @@
+/* Note::first-letter and ::first-line pseudo elements works with block level elements only */
+
+
+/* p::first-letter{
+    font-size: 32px
+} */
+/* p::first-line{
+    font-size: 32px
+} */
+
+/* p::first-letter{
+    font-size: 32px
+} */
+
+/* it will be apply for element p */
+/* p::selection{
+    background-color: #cecece; 
+    color: white;
+} */
+
+/* it will be apply for element h1 */
+/* h1::selection{
+    background-color: #cecece; 
+    color: white;
+} */
+
+/* it will be apply for all element  */
+
+/* ::selection{
+    background-color: #cecece; 
+    color: white;
+} */

@@ -1,0 +1,10 @@
+/* div{
+    font-size: 10px;
+} */
+
+:root{
+    font-size: 10px;
+}
+p{
+    font-size:300% ;
+} 

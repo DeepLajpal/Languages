@@ -1,0 +1,8 @@
+/* The Brozer give default values to margin padding, so we do not want these default values so we reset the css default values by using the below css attribute. */
+/* -->* means universal selector , it is only used for css resetting. */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

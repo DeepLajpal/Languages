@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Sign Up Form</h2>
+    <form action="thankyou.html" method="GET" >
+        <input type="text" name="firstname" placeholder="Enter your First Name" required><br><br>
+        <input type="text" name="lastname" placeholder="Enter your Last Name" required><br><br>
+        <input type="email" name="email" placeholder="Enter your Email" required><br><br>
+        <input type="password" name="password" placeholder="Enter your password" required><br><br>
+        <p>Gender</p>
+        <label for="male">male</label>
+        <input type="radio" name="Gender" id="male" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="female" required>
+        <label for="other">Other</label>
+        <input type="radio" name="Gender" id="other" value="other" required>
+
+        <p>Country</p>
+        <select name="Country" id="Country" required>
+            <option value="">Select</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="America">America</option>
+        </select>
+
+        <p>Write your text here</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Type here" required></textarea><br><br>
+
+        <input type="submit" value="SIGN UP NOW! TO SAVE OFFER" required>
+
+    </form>
+    
+</body>
+</html>

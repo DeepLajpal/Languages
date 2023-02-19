@@ -1,0 +1,16 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    font-size: 2rem;
+    margin: 100px auto;
+    transform-origin: top left;
+    transition: transform 2s ease-in-out;
+}
+
+.box:hover{
+    transform: rotate(360deg);
+    /* transform: scale(3,1.5); */
+    /* transform: translate(0px,444px); */
+    /* transform: skewX(20deg); */
+}

@@ -1,0 +1,3 @@
+Imp points:
+
+1)In Javascript the function is also behaves like an object , means for example we have a function hello(), and we want to know the name of a function, So by writing console.log(hello.name) we can easily get the name, In this case the function name is hello.
